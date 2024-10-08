@@ -7,7 +7,7 @@ export class AISecurityAnalysisPage {
     }
 
     async beforeRender() {
-
+        this.insertedText="Dummy Text"
     }
 
     async afterRender(){
